@@ -70,10 +70,6 @@ else:
 
 #ask user for a place to save the file
 fileLocation = str(input("Enter directory path to save the maya file. Include the name you'd like to give the file at the end of the path: "))
-#rename and save the maya  file from bash
+#rename and save the maya file from bash
 cmds.file(rename=fileLocation)
 cmds.file(save=True)
-
-#This file saving part only works hypothetically. Every time I try to run this script in bash it returns a syntax error at line 1.
-#I can't figure out what the problem is and I have a lot of other homework to do so unfortunately I'm just going to have to take the L.
-#Cheers!
