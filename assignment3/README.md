@@ -10,7 +10,7 @@ alias mayapy="winpty /C/location/on/machine/of/mayapy.exe"
 
 3. Press enter to run the script
 
-4. You will be prompted to enter the radius of a sphere. 0.5 has the nicest result, but you can type any number greater than or equal to zero
+4. You will be prompted to enter the radius of a sphere. 1 yields the "prettiest" result, but you can enter any integer greater than zero
 
 5. Next, you will be asked a vague question about making eggs. Type "y" or "n" to choose if you want to make eggs. If you type "y" or anything other than "n", the sphere you just made will be turned into 34 eggs.
 
