@@ -14,7 +14,11 @@ alias mayapy="winpty /C/location/on/machine/of/mayapy.exe"
 
 5. Next, you will be asked a vague question about making eggs. Type "y" or "n" to choose if you want to make eggs. If you type "y" or anything other than "n", the sphere you just made will be turned into 34 eggs.
 
-6. After generating the eggs, the script will automatically name and save a maya file with the new geometry you just created in anim435-2024-krq33/assignment3/bin. You can open this file to see your beautiful creation.
+6. After generating the eggs, the script will ask you to input a file path to save the new maya file. Here is an example of an acceptable file path:
+
+"C:/Users/klyns/OneDrive - Drexel University/Desktop/ANIM435/WK03/anim435-2024-krq33/assignment3/bin/eggGenerator.mb"
+
+Make sure to include quotations at the start and end of the file path. Also, don't forget to choose a name for the file and add the file type prefix (.mb or .ma)
 
 7.That's all folks!
 ```
